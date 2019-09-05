@@ -21,3 +21,7 @@
 - `puts <value>`<br/>
 USBシリアルへ `<value>` を出力する。
 
+# 参照
+
+- [島根ソフト研究開発センター](https://www.s-itoc.jp/activity/research/mrubyc/)
+- [mruby/c](https://github.com/mrubyc/mrubyc)
