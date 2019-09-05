@@ -21,6 +21,21 @@
 - `puts <value>`<br/>
 USBシリアルへ `<value>` を出力する。
 
+# RBoardの組込みクラス
+
+- `P2`クラス<br/>
+GPIO P2[n] を制御する。
+
+- `new`メソッド<br/>
+P2クラスのインスタンスを生成する。
+
+- `write <pin>, <value>` メソッド<br/>
+ピン `P2[<pin>]` に `<value>` を出力する。`<value>`は 0 または 1 。
+
+- `read <pin>` メソッド<br/>
+ピン `P2[<pin>]` の値を返す。 0 または 1 。
+
+
 # 参照
 
 - [島根ソフト研究開発センター](https://www.s-itoc.jp/activity/research/mrubyc/)
